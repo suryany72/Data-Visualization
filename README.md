@@ -1,8 +1,17 @@
-- 👋 Hi, I’m @suryany72
-- 👀 I’m interested in  frontend technologies like react, angular
+- 👀 this is trailblazer for data visualization using typescript
 - 📫 How to reach me ...suryany72@hotmail.com
 
-<!---
-suryany72/suryany72 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- The project deals to simplify make data visualization 
+- Planned report types are 
+        Table ,
+        DataCentricTable ,
+        PieChart ,
+        DataCentricPieChart ,
+        Histogram ,
+        DataCentricHistogram ,
+        DrillDown ,
+        DataCentricDrillDown 
+- Currently working on creating report in Table format
+- Use case create table from Data(Data Centric Table with default CSS)
+
+-Usage test.ts contains how to use this project
