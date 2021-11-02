@@ -33,7 +33,8 @@ const generateTable = (_table?: table, _data?: any) => {
 
 const generateHTMLTable = (data: any, css?: CSSDef): HTMLDivElement => {
 
-    const sTag = `<table class=${css?.className ? css.className : fromCss.default}>`
+
+    const sTag = `<table class=${fromCss.default}>`
     const eTag = '</table>'
     let tblStr = sTag + fromHelpers.headerRow(Object.keys(data[0]), css?.isBootStrapClass)
     data.forEach((element: {}) => {
@@ -48,7 +49,7 @@ const generateHTMLTable = (data: any, css?: CSSDef): HTMLDivElement => {
 
 
         fromHelpers.CreateBootstrapStyles()
-
+        fromHelpers.addCssClass(css.className, tblHTML)
 
 
     }

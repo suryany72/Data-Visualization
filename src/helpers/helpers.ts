@@ -71,3 +71,10 @@ export const CreateBootstrapStyles = () => {
     script.crossOrigin = "anonymous"
     document.getElementsByTagName('head')[0].firstChild.appendChild(script)
 }
+export const addCssClass =(className:string[],tbl:HTMLDivElement) => {
+    className.forEach(element => {
+        tbl.classList.add(element)
+     
+ })
+ return tbl
+}
